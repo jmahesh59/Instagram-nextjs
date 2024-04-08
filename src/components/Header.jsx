@@ -83,6 +83,8 @@ async function handleSubmit(){
     timestamp :serverTimestamp(),
  });
  setPostUploading(false);
+ setIsOpen(false);
+ location.reload()
 }
 
 
