@@ -6,8 +6,8 @@ import CommentSection from './CommentSection'
 
 function Post({post}) {
   return (
-    <div className='bg-gray my-7 border border-gray-400 rounded-md '>
-        <div className="flex items-center p-5 border-b border-gray-400">
+    <div className='bg-gray my-7 border border-gray-200  '>
+        <div className="flex items-center p-5 border-b border-gray-200">
             <img
              src={post.profileImg} 
              alt={post.username}
